@@ -1,0 +1,828 @@
+/* Universella stilar */
+body {
+	margin: 0;
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Header & Navbar */
+.header-element {
+	display: flex;
+	height: 74px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.a-for-logo {
+	display: flex;
+	margin-left: 12px;
+}
+
+.desktop-logo {
+	height: auto;
+	width: 90px;
+	cursor: pointer;
+}
+
+.fa-bars,
+.fa-times {
+	position: absolute;
+	top: 21px;
+	right: 10px;
+	margin-right: 16px;
+	color: #386361;
+	cursor: pointer;
+	transition: all 300ms ease-out 20ms;
+}
+
+.fa-times {
+	opacity: 0;
+	z-index: -1;
+}
+
+.mobile-nav-unordered-list {
+	position: absolute;
+	top: 57px;
+	right: 100%;
+	width: 100%;
+	font-size: 17px;
+	padding: 30px 0;
+	background-color: #F2F0E3;
+	transition: all 300ms ease-out 20ms;
+	list-style-type: none;
+	z-index: 1;
+}
+
+.mobile-nav-unordered-list li {
+	margin: 16px 0 16px 12px;
+}
+
+.mobile-nav-unordered-list a {
+	color: #000;
+	padding: 0px 5px;
+	text-transform: uppercase;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 300ms ease-out 20ms;
+}
+
+.mobile-nav-unordered-list a:hover {
+	color: #386361;
+}
+
+.mobile-nav-unordered-list-in-undordered-list {
+	visibility: hidden;
+	list-style-type: none;
+	position: absolute;
+	right: 200px;
+	margin: 10px 0 14px 0;
+	opacity: 0;
+	transition: all 300ms ease-out 20ms;	
+}
+
+.desktop-nav-unordered-list {
+	display: none;
+	font-size: 18px;
+	padding: 0;
+	transition: all 300ms ease-out 20ms;
+	margin-right: 20px;
+}
+
+.desktop-nav-unordered-list li {
+	display: inline;
+}
+
+.desktop-nav-unordered-list li a {
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0 5px;
+	margin: 0 16px;
+	cursor: pointer;
+	transition: all 300ms ease-out 20ms;
+}
+
+a.mobile-li-recept {
+	margin-right: 4px;
+}
+
+.desktop-nav-unordered-list li a.desktop-li-recept {
+	margin-right: 4px
+}
+
+.fa-caret-right {
+	margin-right: 12px;
+	transition: all 300ms ease-out 20ms;
+}
+
+.desktop-nav-unordered-list a:hover {
+	color: #386361;
+}
+
+.desktop-nav-unordered-list-in-undordered-list {
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	right: 256px;
+	width: 170px;
+	margin-top: 10px;
+	padding: 0;
+	transition: all 400ms ease-out 20ms;
+}
+
+.desktop-nav-unordered-list-in-undordered-list li {
+	display: block;
+
+}
+
+.desktop-nav-unordered-list-in-undordered-list li a {
+	margin: auto;
+	display: inline-block;
+	background-color: #F2F0E3;
+	padding: 4px 14px 4px 20px;
+	width: 80%;
+	border-top-right-radius: 25%;
+	border-bottom-left-radius: 25%;
+}
+
+.desktop-nav-unordered-list-in-undordered-list li a:hover {
+	color: #F2F0E3;
+	background-color: #558889;
+}
+
+/* Jumbotron */
+.jumbotron {
+	height: 200px;
+	background-size: cover;
+	background-position: center bottom;
+	text-align: center;
+}
+
+.jumbotron-content {
+	display: inline-block;
+	position: relative;
+	top: 72%;
+	color: #000;
+	background-color: #F2F0E3;
+	font-style: italic;
+	opacity: 60%;
+	font-family: 'Great Vibes', cursive;
+	font-size: 16px;
+	letter-spacing: 2px;
+	padding: 4px 28px 2px 22px;
+	border-radius: 4px;
+}
+
+/* Main Hem */
+
+.valkomst-falt {
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: solid 1px #386361;
+}
+
+.header1 {
+	letter-spacing: 1px;
+	font-size: 18px;
+}
+
+.hem-header3 {
+	width: 80%;
+	margin: 0 auto;
+	font-weight: 400;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+
+.hem-header2 {
+	margin: 30px 0;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+/* Sektioner */
+.hem-header4-sektioner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.visa-fler {
+	position: absolute;
+	right: 20px;
+	color: #000;
+	font-size: 10px;
+	cursor: pointer;
+	transition: all 400ms ease-out 20ms;
+	text-decoration: none;
+}
+
+.visa-fler i {
+	margin-left: 4px;
+}
+
+.visa-fler:hover {
+	color: #386361;
+}
+
+/*  Visar recept i listor */
+
+.recept-raknare {
+	margin: 16px 0;
+	text-align: center;
+}
+
+.recept-namn-och-bild {
+	display: flex;
+	align-items: center;
+	margin: 3px 10px;
+}
+
+.div-receptbild {
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	height: 40px;
+	width: 40px;
+	flex-shrink: 0;
+	margin-right: 10px;
+	border-radius: 4px;
+}
+
+.receptbild-lista {
+	width: 60px;
+}
+
+.a-receptnamn {
+	text-decoration: none;
+	color: #000;
+}
+
+.p-receptnamn {
+	margin: 0;
+	font-size: 14px;
+}
+
+/* Receptsidor */
+
+.recept-behallare {
+	width: 100%;
+	margin: 5px auto;
+	background-color: rgba(169, 198, 182, .4);
+	border-top: solid 2px rgba(56, 99, 97, .6);
+	border-bottom: solid 2px rgba(56, 99, 97, .6);
+}
+
+.bildochbeskrivning {
+	display: flex;
+	margin: 20px 0;
+	flex-wrap: wrap-reverse;
+}
+
+.bildbehallare {
+	margin: 16px 0 0 0;
+}
+
+.bild {
+	width: 100%;
+}
+
+.receptbeskrivningsbehallare {
+	width: 800px;
+	margin: 0 15px;
+}
+
+.recept-rubrik {
+	text-align: center;
+	margin: 0;
+	font-size: 26px;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+
+.tidochkategori {
+	text-align: center;
+	margin: 8px 0 16px 0;
+	font-size: 16px;
+	color: #386361;
+}
+
+.fa-clock-o,
+.fa-tag {
+	margin-right: 6px;
+}
+
+.tid {
+	margin-right: 20px;
+}
+
+.recept-beskrivning {
+	margin: 0;
+}
+
+.valj-portioner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 40px;
+	width: 250px;
+	margin: 0 auto;
+	border: solid 1px black;
+	border-radius: 20px;
+}
+
+.valj-portioner div {
+	margin: 0 4px;
+}
+
+.fa-plus,
+.fa-minus {
+	background-color: #386361;
+	color: rgba(255, 255, 255, .9);
+	padding: 8px;
+	border: solid 1px rgba(0, 0, 0, .3);
+	border-radius: 50%;
+	cursor: pointer;
+	transition: all 400ms ease-out 20ms;
+	position: relative;
+}
+
+.ingrediensochtillagningsbehallare {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.ingrediensbehallare {
+	display: inline-block;
+	margin: 0;
+	width: 100%;
+}
+
+.ingredienser {
+	text-align: center;
+	margin: 16px;
+}
+
+.ingredienser,
+.tillagning {
+	padding: 0;
+}
+
+.ingredienser {
+	list-style-type: none;
+}
+
+.rubrik-tillagning {
+	text-align: center;
+}
+
+.tillagning {
+	margin: 10px 10% 0 10%;
+	line-height: 180%;
+}
+
+.tillagning li {
+	
+}
+
+.top-li {
+	margin-top: 16px;
+}
+
+.mängd {
+	margin-right: 3px;
+}
+
+.tillagningsbehallare {
+	display: inline-block;
+	margin: 0;
+	width: 100%;
+}
+
+/* Footer */
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 30px;
+	background-color: #F2F0E3;
+}
+
+.copyright-div {
+	margin-left: 6px;
+	font-size: 12px;
+}
+
+.medialinks-div {
+	margin-right: 6px;
+	font-size: 20px;
+}
+
+.fa-instagram,
+.fa-facebook {
+	margin: 0 10px;
+	color: #000;
+	cursor: pointer;
+	transition: all 300ms ease-out 20ms;
+}
+
+footer .medialinks-div i:hover {
+	color: #386361;
+}
+
+.fa-copyright {
+	margin-right: 3px;
+}
+
+@media only screen and (min-width: 481px) {
+
+	.header-element {
+		height: 80px;
+	}
+
+	.a-for-logo {
+	margin-left: 10px;
+}
+
+	.desktop-logo {
+		width: 100px;
+	}
+
+	.fa-bars,
+	.fa-times {
+		top: 24px;
+	}
+
+	.mobile-nav-unordered-list {
+		top: 63px;
+	}
+
+	.mobile-nav-unordered-list li {
+	margin-left: 10px;
+	}
+
+	/* Jumbotron */
+	.jumbotron {
+		height: 500px;
+	}
+
+	.jumbotron-content {
+		top: 81%;
+		font-size: 26px;
+		letter-spacing: 3px;
+		padding: 10px 60px 8px 54px;
+	}
+
+	/* Main */
+	.main-hem {
+
+	}
+
+	.header1 {
+		letter-spacing: 2px;
+		font-size: 24px;
+	}
+
+	.hem-header3 {
+		font-size: 18px;
+	}
+
+	.hem-header2 {
+		font-size: 20px;
+	}
+
+	/* Sektioner */
+
+	.hem-header4-sektioner {
+		font-size: 18px;
+	}
+
+	.visa-fler {
+		right: 50px;
+	}
+
+	/* Receptsidor */
+
+	.recept-behallare {
+		width: 95%;
+		margin: 20px auto;
+		border: solid 2px rgba(56, 99, 97, .6);
+		border-radius: 10px;
+		box-shadow: 0px 5px 12px 1px rgba(0, 0, 0, .4), 0px 10px 28px 2px rgba(0, 0, 0, .2);
+	}
+
+	.bildochbeskrivning {
+		display: flex;
+		margin: 20px 0;
+	}
+
+	.bildbehallare {
+		margin: 16px auto 0 auto;
+	}
+
+	.bild {
+		width: 300px;
+		border-radius: 8px;
+	}
+
+	.recept-beskrivning {
+		margin: 0 30px;
+	}
+
+	.ingrediensochtillagningsbehallare {
+		display: flex;
+	}
+
+	.ingrediensbehallare {
+		display: inline-block;
+		margin: 0;
+		width: 45%;
+	}
+
+	.tillagningsbehallare {
+		display: inline-block;
+		margin: 0;
+		width: 55%;
+	}
+
+	/* Footer */
+	footer {
+		height: 36px;
+	}
+
+	.copyright-div {
+		margin-left: 20px;
+		font-size: 14px;
+	}
+
+	.medialinks-div {
+		margin-right: 20px;
+		font-size: 22px;
+	}
+
+	.fa-instagram,
+	.fa-facebook {
+		margin: 0 12px;
+	}
+}
+	
+@media only screen and (min-width: 769px) {
+
+	.header-element {
+		height: 90px;
+	}
+
+	.a-for-logo {
+		margin-left: 20px;
+	}
+
+	.desktop-logo {
+		width: 114px;
+	}
+
+	.mobile-nav-unordered-list {
+		display: none;
+	}
+
+	.desktop-nav-unordered-list {
+		display: block;
+	}
+
+	.fa-bars,
+	.fa-times {
+		visibility: hidden;
+	}
+
+	/* Jumbotron */
+	.jumbotron {
+		height: 560px;
+	}
+
+	.jumbotron-content {
+		top: 80%;
+		font-size: 30px;
+		letter-spacing: 4px;
+		padding: 12px 62px 8px 56px;
+	}
+
+	/* Main */
+	.main-hem {
+
+	}
+
+	.header1 {
+		letter-spacing: 3px;
+		font-size: 30px;
+	}
+
+	.hem-header3 {
+		width: 90%;
+		font-size: 20px;
+	}
+
+	.hem-header2 {
+		font-size: 24px;
+	}
+
+	/* Sektioner */
+
+	.hem-header4-sektioner {
+		font-size: 20px;
+	}
+
+	.visa-fler {
+		right: 180px;
+		font-size: 12px;
+	}
+
+	/* Receptsidor */
+
+	.recept-behallare {
+		width: 90%;
+		margin: 20px auto;
+	}
+
+	.bildochbeskrivning {
+		flex-wrap: nowrap;
+	}
+
+	.bildbehallare {
+		margin: 16px auto 0 2%;
+	}
+
+	.bild {
+		width: 260px;
+	}
+
+	.receptbeskrivningsbehallare {
+		width: 800px;
+		margin: 0 10px 0 3%;
+	}
+
+	.recept-rubrik {
+		font-size: 24px;
+	}
+
+	.valj-portioner {
+		width: 350px;
+	}
+
+	.fa-plus:hover,
+	.fa-minus:hover {
+		color: rgba(0, 0, 0, .7);
+		background-color: rgba(242, 240, 227, 1);
+		border: solid 1px rgba(0, 0, 0, 1.0);
+	}
+
+	.ingrediensbehallare {
+		width: 30%;
+	}
+
+	.tillagningsbehallare {
+		width: 70%;
+	}
+
+	/* Footer */
+	footer {
+		height: 40px;
+	}
+
+	.copyright-div {
+		font-size: 16px;
+	}
+
+	.medialinks-div {
+		font-size: 26px;
+	}
+
+	.fa-instagram,
+	.fa-facebook {
+		margin: 0 20px;
+	}
+}
+
+@media only screen and (min-width: 1025px) {
+
+	.header-element {
+		height: 110px;
+	}
+
+	.a-for-logo {
+		margin-left: 30px;
+	}
+
+	.desktop-logo {
+		width: 136px;
+	}
+
+	.desktop-nav-unordered-list {
+		font-size: 20px;
+	}
+	.desktop-nav-unordered-list a {
+		margin: 0 24px;
+	}
+
+	.desktop-nav-unordered-list li a.desktop-li-recept {
+		margin-right: 8px;
+	}
+
+	.fa-caret-right {
+		margin-right: 16px;
+		transition: all 300ms ease-out 20ms;
+	}
+
+	.desktop-nav-unordered-list-in-undordered-list {
+		right: 293px;
+	}
+
+	/* Jumbotron */
+	.jumbotron {
+		height: 600px;
+	}
+
+	.jumbotron-content {
+		font-size: 36px;
+		letter-spacing: 4px;
+		padding: 12px 122px 8px 116px;
+	}
+
+	/* Main */
+	.main-hem {
+
+	}
+
+	.header1 {
+		font-size: 36px;
+	}
+
+	.hem-header3 {
+		font-size: 22px;
+	}
+
+	.hem-header2 {
+		font-size: 26px;
+	}
+
+	/* Sektioner */
+
+	.hem-header4-sektioner {
+		font-size: 22px;
+	}
+
+	.visa-fler {
+		right: 280px;
+	}
+
+	/* Receptsidor */
+
+	.recept-behallare {
+		width: 80%;
+		margin: 30px auto;
+	}
+
+	.bildbehallare {
+		margin: 16px 0 0 4%;
+	}
+
+	.bild {
+		width: 400px;
+	}
+
+	.receptbeskrivningsbehallare {
+		width: 800px;
+		margin: 0 auto 0 auto;
+	}
+
+	.recept-rubrik {
+		text-align: center;
+		margin: 0;
+		font-size: 26px;
+		font-weight: 500;
+		letter-spacing: 2px;
+	}
+
+	.rubrik-tillagning {
+		text-align: left;
+		margin-left: 20%;
+	}
+
+	/* Footer */
+	footer {
+		height: 50px;
+	}
+
+	.medialinks-div {
+		font-size: 30px;
+	}
+}
+
+
+
+
+
+
+
