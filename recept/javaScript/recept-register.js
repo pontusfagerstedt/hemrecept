@@ -56,7 +56,7 @@ const recept = [
 		'titel': 'Fiskbullar i hummersås',
 		'imgPath': './img/receptbilder/fiskbullar-i-hummersas.jpg',
 		'sidPath': './recept/fiskbullar-i-hummersas.html',
-		'tid': '30' + 'min',
+		'tid': 30 + 'min',
 		'kategori': 'Fisk',
 		'beskrivning': 'Nästan alla har nog någon gång köpt konserverade fiskbullar? Det är enkelt att laga själv och smakar mycket godare! Om du hittar lax- och torskfärs så slänger du ihop detta recept på 30min. Det fungerar även bra att köra färsk/tinad fisk i matberedare/mixer eller med mixerstav, men lägg då på 10min i din tidsberäkning. Passar bra att servera ihop med nykokt potatis.',
 		'ingredienser': [[600, ' gr fiskfilé (hälften lax och hälften torsk)'],
@@ -77,7 +77,7 @@ const recept = [
 		'titel': 'Panerade fiskbiffar',
 		'imgPath': './img/receptbilder/panerade-fiskbiffar.jpg',
 		'sidPath': './recept/panerade-fiskbiffar.html',
-		'tid': '30' + 'min',
+		'tid': 30 + 'min',
 		'kategori': 'Fisk',
 		'beskrivning': 'Visst är det praktiskt att köpa färdiga fiskbiffar som du kan snabbt kan steka på? Men att göra egna fiskbiffar behöver varken vara krångligt eller kräva massor av krångliga ingredienser. Dessa goda och frasiga fiskbiffar slänger du enkelt ihop på en halvtimme. Om fisken är fryst så gör du bäst i att tina den i kylen över natten kvällen innan. Servera med kokt potatis, haricot verts och en kall fisksås.',
 		'ingredienser': [[600, ' gr fiskfilé (hälften lax och hälften torsk)'],
@@ -107,7 +107,7 @@ const recept = [
 		'titel': 'Fetaostfyllda örtbiffar med ris och ajvarsås',
 		'imgPath': './img/receptbilder/fetaostfyllda-ortbiffar-med-ris-och-ajvarsas.jpg',
 		'sidPath': './recept/fetaostfyllda-ortbiffar-med-ris-och-ajvarsas.html',
-		'tid': '45' + 'min',
+		'tid': 45 + 'min',
 		'kategori': 'Kött',
 		'beskrivning': 'Saftiga nötfärsbiffar kryddade med en medelhavsk smaksättning och fyllda med krämig fetaost. Fetaosten ger en bra sälta och kryddorna skapar en känsla av att sitta på en uteservering vid medelhavet i Grekland.',
 		'ingredienser': [[600, ' gr nötkött'],
@@ -134,6 +134,39 @@ const recept = [
 					   ['Blanda ihop alla ingredienser utom steksmör i en bunke tills du känner att färsblandningen binder ihop bra.'],
 					   ['Bryn steksmöret i en stekpanna.'],
 					   ['Forma lagom stora biffar som fyller handflatan och stek på medelhög värme i ca 10min på varje sida.']]
+	},
+	{
+		'titel': 'Broccoli och västerbottenostbiffar med bulgur och kall citronsås',
+		'imgPath': './img/receptbilder/broccoli-och-vasterbottenostbiffar-med-bulgur-och-kall-citronsas.jpg',
+		'sidPath': './recept/broccoli-och-vasterbottenostbiffar-med-bulgur-och-kall-citronsas.html',
+		'tid': 45 + 'min',
+		'kategori': 'Vegetariskt',
+		'beskrivning': 'Smarriga vegetariska broccolibiffar med västerbottenost som blir saftiga och frasiga. Ägg och ströbröd får biffarna att stabba sig i ugnen, men dom behåller saftigheten och får en len och fyllig smak av den goda osten och kryddorna.',
+		'ingredienser': [[600, ' gr broccoli'],
+						 [4, ' st ägg'],
+						 [200, ' gr riven västerbottenost'],
+						 [2.5, ' dl ströbröd'],
+						 [2, ' tsk salt'],
+						 [0.5, ' tsk grovmalen svartpeppar'],
+						 [1, ' tsk vitlökspulver'],
+						 [1.5, ' tsk oregano'],
+						 [1.5, ' tsk basilika'],
+						 [1, ' krm cayennepeppar']],
+		'tillagning': [['Starta ugnen och sätt på 190 grader.'],
+					   ['Koka upp vatten och sjud broccolin i 10min (Om du använder fryst broccoli så räcker det med att du tinar den.)'],
+					   ['Häll av vattnet och finhacka broccolin.'],
+					   ['Blanda finhackad broccoli, ägg, riven västerbottenost, ströbröd, salt, grovmalen svartpeppar, vitlökspulver, oregano, basilika och cayennepeppar väl i en bunke.'],
+					   ['Smörj händerna i olja och forma smeten till biffar lagon stora för handflatan.'],
+					   ['Lägg biffarna på en ugnsplåt klädd med bakplåtspapper och sätt in i ugnen'],
+					   ['Låt stå i ugnen i 30 min, men vänd på dom efter 15 min.']]
 	}
 ];
+
+
+
+
+
+
+
+
 

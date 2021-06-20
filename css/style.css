@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 /* Universella stilar */
 body {
 	margin: 0;
@@ -234,6 +236,16 @@ a.mobile-li-recept {
 .recept-raknare {
 	margin: 16px 0;
 	text-align: center;
+}
+
+.stor-bokstav-ovanfor-recept {
+	font-family: 'Dancing Script', cursive;
+	font-size: 24px;
+	text-transform: uppercase;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    width: fit-content;
+	margin: 10px 0 10px 10px;
 }
 
 .recept-namn-och-bild {

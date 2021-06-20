@@ -36,7 +36,22 @@ for (let i = 0; i < temporaryArray.length; i++) {
 
 receptRäknare.innerHTML = '-- Antal recept i RECEPT VEGETARISKT: ' + nyReceptArray.length + ' st. --';
 
+let storBokstavOvanforRecept = document.createElement('p');
+storBokstavOvanforRecept.classList.add('stor-bokstav-ovanfor-recept');
+storBokstavOvanforRecept.innerHTML = nyReceptArray[0].titel[0];
+body.appendChild(storBokstavOvanforRecept);
+
 for (let i = 0; i < nyReceptArray.length; i++) {
+
+	if (i !== 0) {
+		if (nyReceptArray[i-1].titel[0] !== nyReceptArray[i].titel[0]) {
+			let storBokstavOvanforRecept = document.createElement('p');
+			storBokstavOvanforRecept.classList.add('stor-bokstav-ovanfor-recept');
+			storBokstavOvanforRecept.innerHTML = nyReceptArray[i].titel[0];
+			body.appendChild(storBokstavOvanforRecept);
+		}
+	}
+	
 	let divReceptnamnOchBild = document.createElement('div');
 	divReceptnamnOchBild.classList.add('recept-namn-och-bild');
 	body.appendChild(divReceptnamnOchBild);

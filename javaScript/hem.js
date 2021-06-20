@@ -40,7 +40,7 @@ sektion1.appendChild(hemHeader4Sektion1);
 // Skapar länkVisaFler1(<a>) och lägger till i hemHeader4Sektion1
 const länkVisaFler1 = document.createElement('a');
 länkVisaFler1.classList.add('visa-fler');
-länkVisaFler1.href = '#';
+länkVisaFler1.href = 'recept-kott.html';
 hemHeader4Sektion1.appendChild(länkVisaFler1);
 
 // Skapar variabeln textVisaFler1(<span></span>) och lägger till i länkVisaFler1
@@ -67,7 +67,7 @@ sektion2.appendChild(hemHeader4Sektion2);
 // Skapar länkVisaFler2(<a>) och lägger till i hemHeader4Sektion2
 const länkVisaFler2 = document.createElement('a');
 länkVisaFler2.classList.add('visa-fler');
-länkVisaFler2.href = '#';
+länkVisaFler2.href = 'recept-fisk.html';
 hemHeader4Sektion2.appendChild(länkVisaFler2);
 
 // Skapar variabeln textVisaFler2(<span></span>) och lägger till i länkVisaFler2
@@ -94,7 +94,7 @@ sektion3.appendChild(hemHeader4Sektion3);
 // Skapar länkVisaFler3(<a>) och lägger till i hemHeader4Sektion3
 const länkVisaFler3 = document.createElement('a');
 länkVisaFler3.classList.add('visa-fler');
-länkVisaFler3.href = '#';
+länkVisaFler3.href = 'recept-fagel.html';
 hemHeader4Sektion3.appendChild(länkVisaFler3);
 
 // Skapar variabeln textVisaFler3(<span></span>) och lägger till i länkVisaFler3
@@ -121,7 +121,7 @@ sektion4.appendChild(hemHeader4Sektion4);
 // Skapar länkVisaFler4(<a>) och lägger till i hemHeader4Sektion4
 const länkVisaFler4 = document.createElement('a');
 länkVisaFler4.classList.add('visa-fler');
-länkVisaFler4.href = '#';
+länkVisaFler4.href = 'recept-vegetariskt.html';
 hemHeader4Sektion4.appendChild(länkVisaFler4);
 
 // Skapar variabeln textVisaFler4(<span></span>) och lägger till i länkVisaFler4
@@ -148,7 +148,7 @@ sektion5.appendChild(hemHeader4Sektion5);
 // Skapar länkVisaFler5(<a>) och lägger till i hemHeader4Sektion5
 const länkVisaFler5 = document.createElement('a');
 länkVisaFler5.classList.add('visa-fler');
-länkVisaFler5.href = '#';
+länkVisaFler5.href = 'recept-tillbehor.html';
 hemHeader4Sektion5.appendChild(länkVisaFler5);
 
 // Skapar variabeln textVisaFler5(<span></span>) och lägger till i länkVisaFler5
