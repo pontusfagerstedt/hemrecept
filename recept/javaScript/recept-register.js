@@ -159,6 +159,23 @@ const recept = [
 					   ['Smörj händerna i olja och forma smeten till biffar lagon stora för handflatan.'],
 					   ['Lägg biffarna på en ugnsplåt klädd med bakplåtspapper och sätt in i ugnen'],
 					   ['Låt stå i ugnen i 30 min, men vänd på dom efter 15 min.']]
+	},
+	{
+		'titel': 'Coleslaw',
+		'imgPath': './img/receptbilder/coleslaw.jpg',
+		'sidPath': './recept/coleslaw.html',
+		'tid': 20 + 'min',
+		'kategori': 'Tillbehör',
+		'beskrivning': '',
+		'ingredienser': [[400, 'gr vitkål'],
+						 [1, 'st morot'],
+						 [1, 'st rödlök'],
+						 [1, 'dl majonäs'],
+						 [1, 'dl crème fraice'],
+						 [1, 'tsk dijonsenap'],
+						 [1, 'msk vitvinsvinäger']],
+		'tillagning': [[],
+					   []]
 	}
 ];
 
